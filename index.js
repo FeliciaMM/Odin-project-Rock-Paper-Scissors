@@ -3,8 +3,8 @@ let paper = document.querySelector(".paper");
 let scissors = document.querySelector(".scissors");
 let results = document.querySelector('.results');
 let scores = document.querySelector('.scores')
-let humanScoreD=document.createElement('p');
-let computerScoreD=document.createElement('p');
+let humanScoreD=document.querySelector('.HumanScore');
+let computerScoreD=document.querySelector('.ComputerScore');
 
 let userChoice=" ";
 
@@ -111,8 +111,6 @@ function restartGame(){
     computerScore=0;
 }
 
-scores.appendChild(computerScoreD);
-scores.appendChild(humanScoreD);
 
 
 
