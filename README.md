@@ -1,5 +1,5 @@
 ✊,✋,✌️ Game
-very simple and basic done to test DOM manipulation skills and more.
+very simple and basic.
 
 Done under the guidance of the Odin Project⚡
 
